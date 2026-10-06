@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Platforms>AnyCPU</Platforms>
+    <AssemblyName>AudioRouteControl</AssemblyName>
+    <RootNamespace>AudioRouteControl</RootNamespace>
+    <Company>Mori</Company>
+    <Product>Audio Route Control</Product>
+    <Authors>Mori</Authors>
+    <Description>Per-application audio routing and volume control.</Description>
+    <Copyright>Copyright © 2026 Mori</Copyright>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+  </ItemGroup>
+</Project>
